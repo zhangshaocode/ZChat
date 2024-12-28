@@ -6,11 +6,11 @@ THIS PROGRAM HAS CHINESE LANGUAGE ONLY.
 <h1 style="color:red">Usage Guide 使用指南⭐
 <h2 style="color:red">打开 config.php 文件。</h1>
 <p>找到以下部分：</p>
-```php
-$host = 'localhost';
-$dbname = 'chat_app';
-$username = 'your_db_username'; // 替换为你的数据库用户名
-$password = 'your_db_password'; // 替换为你的数据库密码
+``` php
+$host = 'localhost';\
+$dbname = 'chat_app';\
+$username = 'your_db_username'; // 替换为你的数据库用户名\
+$password = 'your_db_password'; // 替换为你的数据库密码\
 ```
 
 <h2>修改为你的实际数据库信息:</h2>
