@@ -4,7 +4,7 @@ This is a simple chat program with PHP.
 THIS PROGRAM HAS CHINESE LANGUAGE ONLY.
 此程序仅支持中文。
 # Usage Guide 使用指南⭐
-#!!!需要修改以下部分您才可以部署到您的服务器使用!!!
+# !!!需要修改以下部分您才可以部署到您的服务器使用!!!
 # a. config.php
 <p>找到以下部分：</p>
     
