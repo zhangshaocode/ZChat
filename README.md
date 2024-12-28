@@ -5,18 +5,21 @@ THIS PROGRAM HAS CHINESE LANGUAGE ONLY.
 此程序仅支持中文。
 <h1 style="color:red">Usage Guide 使用指南⭐
 <h2 style="color:red">打开 config.php 文件。</h1>
-找到以下部分：
-<code>$host = 'localhost';</code>
-<code>$dbname = 'chat_app';></code>
-<code>$username = 'your_db_username'; // 替换为你的数据库用户名</code>
-<code>$password = 'your_db_password'; // 替换为你的数据库密码</code>
-
+<p>找到以下部分：</p>
+```php
+$host = 'localhost';
+$dbname = 'chat_app';
+$username = 'your_db_username'; // 替换为你的数据库用户名
+$password = 'your_db_password'; // 替换为你的数据库密码
+```
 
 <h2>修改为你的实际数据库信息:</h2>
-<code>$host = 'localhost';</code>
-<code>$dbname = 'chat_app';</code>
-<code>$username = 'my_database_user';</code>
-<code>$password = 'my_secure_password';</code>
+```php
+$host = 'localhost';
+$dbname = 'chat_app';
+$username = 'my_database_user';
+$password = 'my_secure_password';
+```
 <h1 style="color:red">b. register.php</h1>
 作用: 处理用户注册功能。用户提交表单后，用户名和加密后的密码会被插入到 users 表中。
 
