@@ -14,12 +14,14 @@ $username = 'your_db_username'; // 替换为你的数据库用户名
 $password = 'your_db_password'; // 替换为你的数据库密码
 ```
 <h2>修改为你的实际数据库信息:</h2>
+
 ```php
 $host = 'localhost';
 $dbname = 'chat_app';
 $username = 'my_database_user';
 $password = 'my_secure_password';
 ```
+
 <h1 style="color:red">b. register.php</h1>
 作用: 处理用户注册功能。用户提交表单后，用户名和加密后的密码会被插入到 users 表中。
 
@@ -28,12 +30,13 @@ $password = 'my_secure_password';
 数据库表结构:
 确保 users 表已经创建，并且包含 id, username, password 字段。
 可以参考以下 SQL 语句创建 users 表：
-
+``` sql
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL
 );
+```
 
 操作步骤:
 
